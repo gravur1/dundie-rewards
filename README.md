@@ -1,6 +1,4 @@
-# dundie-rewards
-
-Projeto Dundie Rewards
+# Projeto Dundie Rewards
 
 Nós fomos contratados pela Dunder Mifflin, grande fabricante de papéis para desenvolver um sistema de recompensas para seus colaboradores.
 
