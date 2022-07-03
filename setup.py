@@ -1,6 +1,7 @@
 import os
 from setuptools import setup, find_packages
 
+
 def read(*paths):
     """Read the contents of a text file safely.
     >>> read("dundie", "VERSION")
@@ -14,7 +15,6 @@ def read(*paths):
         return file_.read().strip()
 
 
-
 def read_requirements(path):
     """Return a list of requirements from a text file"""
     return [
@@ -25,8 +25,8 @@ def read_requirements(path):
 
 
 setup(
-    name = "dundie",
-    version = "0.1.0",
+    name="dundie",
+    version="0.1.0",
     description="Reward point system for Dunder Mifflin",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
