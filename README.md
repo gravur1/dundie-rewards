@@ -34,3 +34,20 @@ Epic: Movimentação
     Eu como FUNCIONARIO quero ser capaz de visualizar meu saldo de pontos e extrato de movimentações.
     Eu como FUNCIONARIO quero ser capaz de transferir pontos para outro funcionário
     Eu como FUNCIONARIO quero que as operações sejam protegidas por senha, impedindo que outro usuário altere minha conta
+
+
+## Installation ##
+
+```
+py
+pip install yourname-dundie
+```
+
+```
+py
+pip install -e '.[dev]'
+```
+
+
+## Usage
+
