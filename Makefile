@@ -10,6 +10,8 @@ install:
 virtualenv:
 	@.venv/bin/python -m pip -m venv .venv
 
+fmt:
+	@.venv/bin/black dundie tests integration
 
 ipython:
 	@.venv/bin/ipython
